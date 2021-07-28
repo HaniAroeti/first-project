@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+:root{
+    --green:#ccffdc;
+    --white:#ffffff;
+    --pink:#ffe6e6;
+    --black:#000000;
+    --grey: #f2f2f2;
+    --blue: #3333ff;
+    --darkblue: #000066;
+    --transparent: #ffffff00;
+    --yellow:#ffff00;
+    --orange:#cc7a00;
+    
+}
+body{
+   background-color: var(--black);
+}
+
+.navbarheader{
+background-color: var(--transparent);
+display: flex;
+height: 80px;
+margin-top: 5px;
+
+} 
+    
+ul{
+list-style-type: none;
+display: flex;
+justify-content: space-around;
+width: 100%;
+
+}
+    
+li :hover{
+ text-decoration: overline;       
+}
+.navlink{
+       text-decoration: none;
+       color: var(--white);
+       font-weight: bolder;
+       font-size: 20px;
+       
+   }
+        
+    
+   
+#logoimg{
+      width: 156px;height: 90px;
+  }
+
+  
+  
+#PartOfOurWork {
+/* display: grid;
+grid-template-columns: repeat (2, 48%) ; */
+display: flex;
+flex-wrap: wrap;
+/* height: 800px; */
+height: fit-content;
+width: 98%;
+/* gap: 7px; */
+justify-content: space-evenly;
+
+  }
+#PartOfOurWork article{
+   
+   width: 40%;
+   height: 450px;
+   
+}
+#PartOfOurWork img{
+   /* width: 100%; */
+   height: 300px;
+   /* width: 600px;
+   height: 300px; */
+}
+.img:hover{
+   filter:grayscale(60%);
+}
+.imgSecPage:hover{
+   filter: invert(60%);
+}
+.textUnderPic {
+   color: var(--white);
+   text-align: center;
+   width: 100%;
+}
+.textUnderPic:hover{
+   color: var(--orange);
+}
+
+
+
+ #formSection{
+      display: flex; 
+      flex-wrap: wrap;
+      flex-direction: column;
+      text-align: center;
+      background-color: var(--orange);
+ }
+
+h3{
+   color: var(--blue);
+}
+
+.registered{
+   width: 99vw;
+   height: 50vh;
+   color: var(--white);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+
+}
+#button{
+   background-color: var(--green);
+}
+.lowerNav{
+   background-color:var(--grey);
+   color: var(--black);
+   /* width:100% ; */
+   height: 100px;
+   /* display: flex; */
+   
+
+}
+#lowerLogo{
+   width: 134px;height: 90px;
+   margin-left: -158px;
+}
+
+.botContent{
+   color: var(--pink);
+}
+
+.botContent :hover{
+   font-size: 20px;
+   color: yellow;
+}

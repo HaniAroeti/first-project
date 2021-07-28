@@ -1,0 +1,204 @@
+
+
+
+:root{
+     --green:#ccffdc;
+     --white:#ffffff;
+     --pink:#ffe6e6;
+     --black:#000000;
+     --grey: #f2f2f2;
+     --blue: #3333ff;
+     --darkblue: #000066;
+     --transparent: #ffffff00;
+     --yellow:#ffff00;
+     
+}
+body{
+    background-color: var(--black);
+}
+
+    .navbarheader{
+    background-color: var(--transparent);
+    display: flex;
+    height: 80px;
+    
+    
+    
+     } 
+     
+     ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+
+     }
+  
+
+     
+     li :hover{
+        text-decoration: overline;
+        
+        
+     }
+    
+    
+      
+       
+     .navlink{
+        text-decoration: none;
+        color: var(--white);
+        font-weight: bolder;
+        font-size: 20px;
+        
+       
+
+    }
+         
+     
+    
+   #logoimg{
+       width: 156px;height: 90px;
+       
+       
+      
+   }
+   #myVideo{
+       width: 100%;
+       height: 100%;
+   }
+  
+   #myVideo{
+       position: relative;
+       z-index: -1;
+   }
+   #contant{
+    position: absolute; 
+    left: 37px;
+    top: 190px;
+    color: var(--white);
+    font-size: 65px;
+    font-family: initial;
+    animation-name: contant;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+   
+
+}
+
+
+@keyframes contant {  
+    from{left: -500px;
+    }
+    to{left: 37px;
+    }
+  }
+
+  @media only screen and (max-width: 425px){
+    .contact p{
+            font-size: 30px;    }  
+    nav{
+          font-size: 16px}
+      
+    }
+
+
+
+    #sliderContainer{
+        overflow: hidden;
+        /* width: 100%; */
+        /* width: 100%;
+        height: 50vh;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        /* display: flex; */
+        /* flex-direction: row; */
+        /* text-align: center; */ 
+    }
+    #slider{
+        position: relative;
+        width: 620vw;
+        margin: 0;
+        left: 0;
+        position: relative;
+        animation:slide 35s  alternate infinite;
+        animation-delay: 1s;
+    
+    }
+    
+  
+        
+    
+    #slider img{ 
+        
+       float: left;
+
+         width: 20%;
+        height: 500px;
+      
+
+    }
+
+                
+          
+        @keyframes slide {
+
+        0% {left:0;}
+        25% {left:-100%;}
+        50% {left:-300%;}
+        75% {left:-540%;}
+        100% {left:0;}
+        }
+     
+    
+    /* פה צריך לבוא הקיפריים של הטקסט והסלייד  */
+
+    #textArticle{
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        background-color: var(--darkblue);
+
+     }
+
+    #textArticle :hover{
+        color: var(--green);
+    }
+     
+    #textArticle div{
+        color: var(--white);
+        /* width: 200px; */
+        
+      
+    }
+    #externaLlink{
+        color: var(--yellow);
+    }
+    .lowerNav{
+        background-color:var(--grey);
+        color: var(--black);
+        /* width:100% ; */
+        height: 100px;
+        /* display: flex; */
+        
+
+    }
+    #lowerLogo{
+        width: 134px;height: 90px;
+        margin-left: -158px;
+    }
+   
+        
+
+       
+    
+    
+    
+    
+
+
+
+
+
+         
